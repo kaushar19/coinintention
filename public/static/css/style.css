@@ -1,0 +1,285 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.fixedtop{
+    padding-top: 100px;
+}
+nav {
+    background-color: #041334;
+    font-family: Poppins, 'Source Sans Pro';
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .7);
+
+}
+
+.navtext {
+    color: #fff;
+    padding: 20px;
+    font-weight: 700;
+}
+
+
+.mainpage {
+    max-width: 100%;
+    padding-top: 100px;
+    height: auto;
+    background-color: #041334;
+    color: #fff;
+}
+
+.texttop {
+    color: #fff;
+    width: 90%;
+    margin: auto;
+
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+    font-weight: 700;
+}
+
+.cryptologo {
+    height: 2rem;
+    width: 2rem;
+}
+
+.graph {
+    width: auto;
+    height: 1.3rem;
+}
+
+.btc {
+    vertical-align: text-top;
+    margin-left: 10px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: normal;
+    font-size: small;
+}
+
+.gpercent {
+    color: rgb(44, 238, 44);
+}
+
+.rpercent {
+    color: rgb(226, 26, 26);
+}
+
+.btncontainer {
+    display: flex;
+    justify-content: center;
+    margin: 1% 0% 2% 0%;
+}
+
+.tablebtn {
+    background-color: aqua;
+    border: none;
+    color: #fff;
+    padding: 8px 30px 8px 30px;
+    text-align: center;
+    font-size: 18px;
+    margin: 5px 2px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+
+.mapcontainer {
+    display: flex;
+    justify-content: center;
+    background-color: #00092a;
+    flex-wrap: wrap;
+    padding: 3%;
+    gap: 13%;
+}
+
+.map {
+    width: 100%;
+    height: 100%;
+}
+
+.cryptomap {
+    background-color: #00092a;
+    width: 500px;
+    height: 450px;
+    color: #fff;
+}
+
+.cardlist {
+    background-color: #00092a;
+    color: #fff;
+    border-color: #00092a;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    background-color: #0f1535;
+}
+
+
+
+
+.centergrid {
+    display: grid;
+    gap: 20px;
+    background-color: #041334;
+    padding: 60px 0px 50px 0px;
+    justify-content: center;
+}
+
+.centergrid>div {
+
+    background-color: #041334;
+    color: #fff;
+
+}
+
+.listbg {
+    background-color: #041334;
+    color: #fff;
+    border-color: #041334;
+}
+
+
+
+
+.card {
+    margin-right: auto;
+    margin-left: auto;
+    width: 350px;
+
+    height: 450px;
+    border-radius: 25px;
+    backdrop-filter: blur(14px);
+    background-color: #041334;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    text-align: center;
+}
+
+.cardbgg {
+    margin: auto;
+    background-color: #041334;
+    border-color: #041334;
+    color: #fff;
+    font-weight: 600;
+}
+
+.increase {
+    width: 1rem;
+    height: 1rem;
+}
+
+.footercontainer {
+    display: grid;
+    gap: 20px;
+    background-color: #0f1535;
+    padding: 40px 0px 40px 0px;
+    justify-content: center;
+}
+
+.footercontainer>div {
+    background-color: #0f1535;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.thead {
+    padding: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.fhead {
+    padding: 0px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.bottum {
+    background-color: #041334;
+    color: #fff;
+    padding: 20px 0px 20px 0px;
+}
+
+/* Extra small devices (phones, 576px and down) */
+@media only screen and (max-width: 576px) {
+
+    .mapcontainer {
+        padding-bottom: 50px;
+    }
+
+    .textsize {
+        font-size: 14px;
+    }
+
+    .footercontainer {
+        grid-template-columns: 350px;
+        padding: 40px 0px 10px 0px;
+    }
+
+    .centergrid {
+        grid-template-columns: 350px;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+    .footercontainer {
+        grid-template-columns: 450px;
+    }
+
+    .centergrid {
+        grid-template-columns: 450px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .footercontainer {
+        grid-template-columns: 350px 350px;
+    }
+
+    .centergrid {
+        grid-template-columns: 350px 350px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .footercontainer {
+        grid-template-columns: 450px 450px;
+    }
+
+    .centergrid {
+        grid-template-columns: 450px 450px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .footercontainer {
+        grid-template-columns: 600px 600px;
+    }
+
+    .centergrid {
+        grid-template-columns: 600px 600px;
+    }
+}
