@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/coinintention/static/js/main.df56e2be.js",
+    "main.js": "/coinintention/static/js/main.9ae21871.js",
     "static/media/bitcoinlogo.png": "/coinintention/static/media/bitcoinlogo.9bc86613b468de915cfc.png",
     "static/media/ethereumlogo.png": "/coinintention/static/media/ethereumlogo.2977015b62998dcf97c2.png",
     "static/media/shibuInulogo.png": "/coinintention/static/media/shibuInulogo.14f40fd2c46c07b7a2a1.png",
-    "static/media/logo.png": "/coinintention/static/media/logo.bce636624125d5d9dba6.png",
+    "static/media/coinlogo.png": "/coinintention/static/media/coinlogo.bce636624125d5d9dba6.png",
     "index.html": "/coinintention/index.html",
-    "main.df56e2be.js.map": "/coinintention/static/js/main.df56e2be.js.map"
+    "main.9ae21871.js.map": "/coinintention/static/js/main.9ae21871.js.map"
   },
   "entrypoints": [
-    "static/js/main.df56e2be.js"
+    "static/js/main.9ae21871.js"
   ]
 }
