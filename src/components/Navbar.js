@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../icons/logo.png";
+import coinlogo from "../icons/coinlogo.png";
 function Navbar() {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/">
-            <img src={logo} alt="logo" width={220} height={35} />
+          <Link className="navbar-brand" to="">
+            <img src={coinlogo} alt="logo" width={220} height={35} />
           </Link>
           <button
             className="navbar-toggler"

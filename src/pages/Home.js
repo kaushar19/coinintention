@@ -6,10 +6,10 @@ import Exchange from "../components/Exchange";
 function Home() {
   return (
     <>
-      <Main />
-      <CryptoMap />
-      <Exchange />
-      <Footer />
+       <Main></Main>
+       <CryptoMap></CryptoMap>
+       <Exchange></Exchange> 
+      <Footer></Footer>
     </>
   );
 }

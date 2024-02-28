@@ -1,12 +1,12 @@
 import React from "react";
-import logo from "../icons/logo.png";
+import coinlogo from "../icons/coinlogo.png";
 function Footer() {
   return (
     <>
       <div className="footercontainer ">
         <div>
           <p>
-            <img src={logo} alt="logo" height={35} width={200} />
+            <img src={coinlogo} alt="logo" height={35} width={200} />
           </p>
           <h4>
             CoinIntention's mission is to make investing in cryptocurrencies
