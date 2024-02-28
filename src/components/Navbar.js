@@ -6,7 +6,7 @@ function Navbar() {
     <>
       <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
         <div className="container-fluid">
-          <Link className="navbar-brand" to="">
+          <Link className="navbar-brand" to="/">
             <img src={coinlogo} alt="logo" width={220} height={35} />
           </Link>
           <button
